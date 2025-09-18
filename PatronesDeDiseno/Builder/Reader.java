@@ -8,7 +8,7 @@ public class Reader {
         this.converter = converter;
     }
 
-    public void parseInput(String element){
+    public void parseInput(){
         switch (element) {
             case "LINE":
             converter.makeLine();
