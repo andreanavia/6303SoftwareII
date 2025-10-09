@@ -19,7 +19,7 @@ public class EjecutarHerencia6303 {
         t[2] = new Vendedor(3, "Alan", 800, 0.3);
 
         for(int i = 0; i < t.length; i++){
-            System.out.println(t[i].pagar());
+            System.out.println(t[i].getNombre() + " " + t[i].pagar());
         }
     }
 }
