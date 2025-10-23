@@ -6,7 +6,7 @@ import patterns.facade.ServicioFacade;
 public class Main {
     public static void main(String[] args) {
         // Crear cliente
-        Cliente cliente = new Cliente("123456789", "Juan Pérez");
+        Cliente cliente = new Cliente("1118256211", "Andrea Navia");
 
         // Crear la fachada para gestionar los servicios y pedidos
         ServicioFacade servicioFacade = new ServicioFacade(cliente);
